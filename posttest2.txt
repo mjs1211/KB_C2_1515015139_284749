@@ -1,0 +1,27 @@
+Tugas Posttest 2
+
+Nama 	: Muhammad Jodi Saputra
+NIM	: 1515015139
+Kelas	: C2/2015
+Matkul	: Kecerdasan Buatan
+
+keyword-keyword dalam Visual Prolog :
+
+Major Keyword :
+- class / clauses / constants / constructors			- namespace
+- delegate / domains					- open
+- end						- predicates
+- facts						- properties
+- goal						- resolve
+- implements / inherits / interface			- supports
+- monitor
+
+Minor Keyword :
+- align / and / anyflow / as				- language
+- bitsize						- mod / multi
+- catch						- nondeterm
+- determ / digits / div / do				- or / orelse
+- else / elseif / erroneus / externally			- procedure
+- guard						- quot
+- if / in						- rem
+- single						- then / to / try
