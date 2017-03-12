@@ -1,0 +1,32 @@
+Tugas Posttest 2
+
+Nama	: Muhammad Jodi Saputra
+NIM	: 1515015139
+Kelas	: C2/2015
+Matkul	: Kecerdasan Buatan
+
+1) Ubah bahasa Prolog berikut menjadi bahasa natural :
+
+a. orang(dian) => Dian adalah orang.
+b. mobil(atoz) => Atoz merupakan sebuah mobil.
+c. suka(dian,atoz) => Dian menyukai Atoz.
+d. dijual(atoz) => Atoz dijual.
+e. dapat_membeli(X,Y):- ==> X  dapat membeli Y jika
+  orang(X), ==> X adalah orang,
+  mobil(Y), ==> Y adalah mobil,
+  suka(X,Y), ==> X menyukai Y, dan
+  dijual(Y). ==> Y sedang dijual.
+f. suka(_,Apa). ==> Apa saja yang disukai.
+
+2) Ubah bahasa natural berikut menjadi bahasa Prolog:
+
+a. Ricky mempunyai hobi bermain catur. ==> hobi(ricky,catur).
+b. Embang orangnya pemalas. ==> pemalas(embang).
+c. Yusida seorang vegetarian. ==> vegetarian(yusida).
+d. Kusdiar pandai bermain gitar. ==> pandai_bermain(kusdiar,gitar).
+e. Mobil yang berwarna merah itu milik Sadek, bermerk BMW. ==>mobil(sadek,merah),merek(bmw).
+f. Awan seorang pemain piano, berasal dari Pontianak bersuku Jawa. ==> pemain_piano(awang),asal(pontianak),suku(jawa).
+g. Seseorang dikatakan baik jika mempunyai sifat penyayang dan dermawan. ==> orang(baik):-sifat(penyayang),sifat(dermawan).
+h. Seseorang dikatakan pintar jika salah satu dari Matematika atau IPA atau IPS
+mendapat nilai tinggi. ==> orang(pintar):-nilai_tinggi(matematika);nilai_tinggi(ipa);nilai_tinggi(ips).
+i. Setiap orang pasti mati. ==> mati(orang).
